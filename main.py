@@ -9,7 +9,7 @@ def pref_func(str):
         p[i] = j
     return max(p)
 
-str = "abacabadabacaba"
+str = input()
 length = len(str)
 sum = 0
 for j in range(length):
